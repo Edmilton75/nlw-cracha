@@ -13,7 +13,7 @@
     />
 
     <title>TreinoWeb</title>
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
@@ -22,20 +22,20 @@
           <span>
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
-          <img src="images/myPhoto.jpeg" alt="Foto pessoal" />
+          <img src="images/myPhoto.jpeg" alt="Foto pessoal" id="userPhoto" />
         </div>
-        <h1>Edmilton Albuquerque</h1>
-        <a href="https://github.com/Edmilton75">
+        <h1 id="userName"></h1>
+        <a id="userLink" href="https://github.com/" target="_blank">
           <img src="images/github 2.svg" alt="ícone github" />
-          Edmilton_Dev</a
+          <span id="userLogin">Edmilton_Dev</span></a
         >
-        <p>
+        <p id="userBio">
           An instructor focused on helping <br />
           pople start programming for web
         </p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="youtube">
             <a
               href="https://www.youtube.com/channel/UCIZnsnqwXoxJX-g9u3coquw"
               target="_blank"
@@ -43,12 +43,12 @@
               <img src="images/youtube.svg" alt="ícone youtube" />
             </a>
           </li>
-          <li>
+          <li class="instagram">
             <a href="https://www.instagram.com/edmiltonsousa/" target="_blank">
               <img src="images/instagram.svg" alt="ícone instagram" />
             </a>
           </li>
-          <li>
+          <li class="facebook">
             <a
               href="https://m.facebook.com/edmilton.albuquerque"
               target="_blank"
@@ -56,7 +56,7 @@
               <img src="images/facebook.svg" alt="ícone facebook" />
             </a>
           </li>
-          <li>
+          <li class="twitter">
             <a href="https://twitter.com/brutoce" target="_blank">
               <img src="images/twiter.svg" alt="ícone twiter" />
             </a>
@@ -64,5 +64,7 @@
         </ul>
       </div>
     </main>
+
+    <script src="/main.js"></script>
   </body>
 </html>
